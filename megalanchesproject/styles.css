@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+body {
+    background-color: lightgray;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.foodbox-top {
+    background-color: red;
+    color: white;
+    padding: 15px; 
+    border-radius: 10px;
+    margin: 15px;
+    font-weight: 800;
+}
+
+.foodbox-product {
+    background-color: white;
+    padding: 15px;
+    margin: 0 15px 5px 15px;
+    border-radius: 10px;
+    font-weight: 700;
+    border: 5px solid white;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+h3, h5, h6 {
+    font-size: 30px;
+    margin-bottom: 5px;
+    margin-left: 25px;
+    font-weight: 700;
+    padding: 15px;
+}
+
+h4 {
+
+    margin-top: 0;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+p{
+    font-size: 20px;
+}
+.foodbox-product img{
+    width: 130px;
+    border-radius: 5px;
+    float: right;
+    max-height: 100px;
+}
+
+.finish {
+    color: white;
+    background-color: green;
+    display: flex;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 15px;
+    margin: 15px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+/* page footer */
+
+.footer{
+    border-top: 2px solid var(--text-light-gray);
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+.footer span {
+    margin: 10px;
+    color: black;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.sharelinks a {
+    margin: 3px;
+    color: black;
+}
+ 
+.github-img{ height: 30px;
+    width: 30px;
+    margin-right: 13px;
+
+ }
+
+ .linkedin-img {
+    height: 30px;
+    width: 30px;
+    margin-right: 13px;
+ }
+
+ .instagram-img{
+    height: 30px;
+    width: 30px;
+    margin-right: 13px;
+
+}
